@@ -1,7 +1,11 @@
 let favoriteBooks = [];
 
 function addFavoriteBook(bookName) {
-  // Start coding here !
+  if (bookName.match("Beauty")) {
+    return favoriteBooks.push(bookName);
+  } else {
+    return;
+  }
 }
 
 // Example case
